@@ -995,6 +995,21 @@
                     <mask>/^.{1,1024}$/u</mask>
                     <ValidationMessage>Should be a string between 1 and 1024 characters.</ValidationMessage>
                 </highwinds_access_token>
+                <synology_username type="TextField">
+                    <Required>Y</Required>
+                    <mask>/^.{1,1024}$/u</mask>
+                    <ValidationMessage>Should be a string between 1 and 1024 characters.</ValidationMessage>
+                </synology_username>
+                <synology_password type="TextField">
+                    <Required>Y</Required>
+                    <mask>/^.{1,1024}$/u</mask>
+                    <ValidationMessage>Should be a string between 1 and 1024 characters.</ValidationMessage>
+                </synology_password>
+                <synology_device_id type="TextField">
+                    <Required>N</Required>
+                    <mask>/^.{1,1024}$/u</mask>
+                    <ValidationMessage>Should be a string between 1 and 1024 characters.</ValidationMessage>
+                </synology_device_id>
                 <sftp_host type="TextField">
                     <Required>N</Required>
                     <mask>/^.{1,255}$/u</mask>

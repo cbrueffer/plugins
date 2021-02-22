@@ -41,6 +41,24 @@
         <help>Access token for Highwinds API.</help>
     </field>
     <field>
+        <id>action.synology_username</id>
+        <label>Username</label>
+        <type>text</type>
+        <help>Username for Synology DSM.</help>
+    </field>
+    <field>
+        <id>action.synology_password</id>
+        <label>Password</label>
+        <type>hidden</type>
+        <help>Passwordfor Synology DSM.</help>
+    </field>
+    <field>
+        <id>action.synology_device_id</id>
+        <label>Device ID</label>
+        <type>text</type>
+        <help>Device ID for Synology DSM.</help>
+    </field>
+    <field>
         <label>Required Parameters</label>
         <type>header</type>
         <style>method_table method_table_upload_sftp</style>
